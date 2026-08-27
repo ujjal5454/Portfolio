@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ujjal Basnet - Resume</title>
+  <style>
+    @page { size: letter; margin: 0.5in; }
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #111827;
+      line-height: 1.4;
+      font-size: 10.5pt;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 20pt;
+      margin: 0 0 4px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 10pt;
+      font-weight: bold;
+      color: #374151;
+      margin-bottom: 6px;
+    }
+    .contact-info {
+      text-align: center;
+      font-size: 9pt;
+      margin-bottom: 12px;
+      color: #4b5563;
+    }
+    .contact-info a {
+      color: #111827;
+      text-decoration: none;
+    }
+    hr.divider {
+      border: none;
+      border-top: 1.5px solid #111827;
+      margin: 10px 0;
+    }
+    .section-title {
+      font-size: 11pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #111827;
+      padding-bottom: 2px;
+      margin-top: 14px;
+      margin-bottom: 8px;
+    }
+    p { margin: 0 0 6px 0; }
+    ul { margin: 4px 0 8px 18px; padding: 0; }
+    li { margin-bottom: 3px; }
+    .skill-row { margin-bottom: 4px; }
+    .skill-name { font-weight: bold; }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-top: 6px;
+    }
+    .project-title { font-weight: bold; }
+    .project-link { font-weight: normal; font-size: 9pt; color: #2563eb; }
+    .education-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+    .cert-item { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h1>UJJAL BASNET</h1>
+  <div class="subtitle">SOC Analyst | Cybersecurity Enthusiast | Threat Detection &amp; Monitoring</div>
+  <div class="contact-info">
+    +977 9849496614 &nbsp;|&nbsp;
+    <a href="mailto:ujjalbasnet869@gmail.com">ujjalbasnet869@gmail.com</a> &nbsp;|&nbsp;
+    <a href="https://linkedin.com/in/ujjalbasnet69">linkedin.com/in/ujjalbasnet69</a> &nbsp;|&nbsp;
+    <a href="https://github.com/ujjal5454">github.com/ujjal5454</a>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section-title">Summary</div>
+  <p>
+    Cybersecurity-focused Computer Science graduate (2022–2026) with hands-on experience building and operating a home Security Operations Center (SOC) lab, including SIEM deployment, log analysis, and attack simulation mapped to MITRE ATT&amp;CK. Skilled in threat detection using ELK Stack, Splunk, and Wireshark, with a strong foundation in Python for security automation and scripting. Also brings practical experience in web development and machine learning, enabling a well-rounded, technically versatile approach to problem-solving. Eager to apply analytical skills and a self-driven lab-building mindset to a SOC Analyst role.
+  </p>
+
+  <div class="section-title">Skills</div>
+  <div class="skill-row"><span class="skill-name">Security Monitoring &amp; SIEM:</span> ELK Stack (Elasticsearch, Kibana), Splunk, Sysmon, Winlogbeat, KQL</div>
+  <div class="skill-row"><span class="skill-name">Network &amp; Traffic Analysis:</span> Wireshark, Nmap, Netcat</div>
+  <div class="skill-row"><span class="skill-name">Offensive Security Tools:</span> Metasploit, Kali Linux</div>
+  <div class="skill-row"><span class="skill-name">Threat Intel &amp; Analysis:</span> VirusTotal, AbuseIPDB, MITRE ATT&amp;CK Framework</div>
+  <div class="skill-row"><span class="skill-name">Scripting &amp; Automation:</span> Python</div>
+  <div class="skill-row"><span class="skill-name">Web Development &amp; ML (secondary interest):</span> React, Node.js, Express.js, TensorFlow, PyTorch, OpenCV, SQL</div>
+  <div class="skill-row"><span class="skill-name">Operating Systems:</span> Windows, Linux (Kali Linux)</div>
+  <div class="skill-row"><span class="skill-name">Tools &amp; Platforms:</span> Git, GitHub, VirtualBox, VS Code, JWT</div>
+
+  <div class="section-title">Education</div>
+  <div class="education-header">
+    <span>Jain University, Bangalore, India</span>
+    <span>(Sep 2022 – 2026)</span>
+  </div>
+  <div>Bachelor of Technology in Computer Science &nbsp;|&nbsp; GPA: 8.1</div>
+
+  <div class="section-title">Cybersecurity Projects</div>
+  
+  <div class="project-header">
+    <span class="project-title">Home SIEM Lab</span>
+    <span class="project-link">github.com/ujjal5454/Home-SIEM-lab</span>
+  </div>
+  <ul>
+    <li>Designed and deployed a full home SOC lab using Elastic SIEM (Elasticsearch + Kibana) on Windows 11 with a Kali Linux attacker VM on an isolated host-only network.</li>
+    <li>Configured Sysmon with the SwiftOnSecurity ruleset and Winlogbeat for centralized log shipping and endpoint visibility.</li>
+    <li>Simulated real-world attacks (network recon, SMB brute force) and built Kibana dashboards to detect and investigate them, documenting findings in professional incident reports.</li>
+  </ul>
+  <p><strong>Technologies Used:</strong> Elasticsearch, Kibana, Sysmon, Winlogbeat, VirtualBox, Windows 11, Kali Linux</p>
+
+  <div class="project-header">
+    <span class="project-title">Phishing Email Analyzer</span>
+    <span class="project-link">github.com/ujjal5454/phishing-email-analyzer</span>
+  </div>
+  <ul>
+    <li>Built a Python-based tool to automatically analyze suspicious emails for phishing indicators.</li>
+    <li>Integrated VirusTotal and AbuseIPDB APIs to check URLs, attachments, and sender IP reputation in real time.</li>
+    <li>Streamlined manual triage into an automated workflow suitable for SOC-style phishing investigations.</li>
+  </ul>
+  <p><strong>Technologies Used:</strong> Python, VirusTotal API, AbuseIPDB API</p>
+
+  <div class="project-header">
+    <span class="project-title">Network Reconnaissance Detection Lab</span>
+    <span class="project-link">github.com/ujjal5454/network-recon-detection-lab</span>
+  </div>
+  <ul>
+    <li>Simulated network reconnaissance attacks using Nmap and Netcat from a Kali Linux attacker machine.</li>
+    <li>Detected and analyzed recon activity through firewall log data using KQL queries in Kibana.</li>
+    <li>Mapped detections to relevant MITRE ATT&amp;CK techniques and documented the full attack-to-detection workflow.</li>
+  </ul>
+  <p><strong>Technologies Used:</strong> Nmap, Netcat, Kibana, KQL, MITRE ATT&amp;CK</p>
+
+  <div class="section-title">Other Projects</div>
+  <p><strong>Police App:</strong> Designed a role-based access system for users, administrators, and law enforcement personnel with JWT authentication and real-time case tracking. (React.js, Node.js, Express.js, MongoDB, JWT, Git)</p>
+  <p><strong>Face Recognition Attendance System:</strong> Built an automated attendance tracking system using OpenCV and facial recognition, logging results to CSV with timestamps. (Python, OpenCV, face_recognition, datetime)</p>
+
+  <div class="section-title">Certifications</div>
+  <div class="cert-item"><strong>Linux Fundamentals</strong> — Learn Quest / Coursera (March 2023)</div>
+  <div class="cert-item"><strong>C for Everyone: Structured Programming</strong> — University of California, Santa Cruz / Coursera (January 2023)</div>
+  <div class="cert-item"><strong>Autodesk Fusion 360: Integrated CAD/CAM/CAE</strong> — Autodesk / Coursera (July 2023)</div>
+  <div class="cert-item"><strong>Introduction to Interactive Programming in Python</strong> — Rice University / Coursera (May 2023)</div>
+</body>
+</html>
